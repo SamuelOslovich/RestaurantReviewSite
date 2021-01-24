@@ -1,0 +1,116 @@
+/* Restaurant Styling */
+.restaurant-card {
+    display: inline-block;
+    vertical-align: top;
+    border-color: bisque 2px;
+    background-color: blanchedalmond;
+    padding: 40px;
+    margin: 10px;
+    width: 300px;
+    height: 350px;
+}
+
+.restaurant-card-img {
+    background-size: contain;
+    width: 100%;
+}
+
+.restaurant-link {
+    color: black;
+    text-decoration: none;
+}
+
+#restaurant-card-container {
+    display:block;
+}
+
+#restaurant-view {
+    background-color: blanchedalmond;
+}
+
+#restaurant-view-img {
+    background-size: contain;
+    width: 100%;
+}
+/* End Restaurant Styling */
+
+/* Review Styling */
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+
+#review-container {
+    background-color: cornsilk;
+    padding: 10px;
+    border: darkgray 2px;
+}
+
+.review-card {
+    background: darkgrey;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    overflow:hidden;
+}
+/* End Review Styling */
+
+/* Navbar Styling */
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+.nav-element {
+    float: left;
+}
+
+.nav-element a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-element a.active {
+    color: white;
+    background-color: #ad000e;
+}
+/* End Navbar Styling */
+
+/* Form Styling */
+form {
+    background-color: cornsilk;
+    padding: 10px;
+}
+
+form textarea {
+    width: 300px;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input {
+    margin-bottom: 5px;
+}
+/* End Form Styling */
+
+.hidden {
+    display: none;
+}
+
+/* Error Styling */
+.alert  {
+    color:red;
+    font-weight: bold;
+}
+/* End Error Styling */
